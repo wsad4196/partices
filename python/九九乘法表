@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2020/5/30 12:14
+# @Author  : 闰土
+# @FileName: MultiplicationTable.py
+# @Software: PyCharm
+
+for p in range(1,10):
+    for j in range(1,p+1):
+        print('{}*{}={}'.format(p,j,p*j),end="  | ")
+    print()
